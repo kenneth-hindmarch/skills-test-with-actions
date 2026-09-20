@@ -39,4 +39,4 @@ jobs:
                 MINIMUM_ORANGE: 70
 
             - name: Fail is below threshold
-              run: coverage report --fail-under-90
+              run: coverage report --fail-under=90
